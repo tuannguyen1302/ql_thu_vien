@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#FF223C"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Xóa Thất Bại"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Dữ Liệu Liên Kết Chưa Được Xóa"
+            android:textColor="@color/black"
+            android:textSize="15sp"></TextView>
+
+        <Button
+            android:id="@+id/btn_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#F80C0C"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="25sp"></Button>
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/linear"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_img_delete"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        </ImageView>
+    </LinearLayout>
+
+</RelativeLayout>

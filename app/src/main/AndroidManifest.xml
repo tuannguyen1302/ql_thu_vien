@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="net.fpl.androidduanmau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/avatar"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/avatar"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidDuAnMau">
+        <activity
+            android:name=".Fragment.Fragment_DoanhThu"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment_ThemThuThu"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment_DoiMK"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment_Top"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment_QuanlyTV"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment_Sach"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment_Loaisach"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment_Phieumuon"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".LoadScreen_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>

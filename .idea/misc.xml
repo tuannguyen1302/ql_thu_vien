@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable-xhdpi/bg_img_delete.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable-xhdpi/bg_vien_hong.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/avt_background.xml" value="0.2923076923076923" />
+        <entry key="app/src/main/res/drawable/bg_main.xml" value="0.30666666666666664" />
+        <entry key="app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.2923076923076923" />
+        <entry key="app/src/main/res/drawable/ic_book.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable/ic_doanhthu.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable/ic_loaisach.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable/ic_phieumuon.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable/ic_qlphieumuon.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable/ic_quanlysach.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable/ic_thanhvien.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable/ic_top.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/drawable/ic_user.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_fragment_dangxuat.xml" value="0.1598731884057971" />
+        <entry key="app/src/main/res/layout/activity_fragment_doanh_thu.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_fragment_doi_mk.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_fragment_loaisach.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_fragment_phieumuon.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_fragment_quanly_tv.xml" value="0.1598731884057971" />
+        <entry key="app/src/main/res/layout/activity_fragment_sach.xml" value="0.1598731884057971" />
+        <entry key="app/src/main/res/layout/activity_fragment_thanhvien.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_fragment_top.xml" value="0.1598731884057971" />
+        <entry key="app/src/main/res/layout/activity_load_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/dialog_delete.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/dialog_e.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/loai_sach_item.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/loaisach_dialog.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/loaisach_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/loaisach_spinner.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/phieumuon_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/phieumuon_item.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/sach_dialog.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/sach_item.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/sach_item_spinner.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/thanhvien_dialog.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/thanhvien_item.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/thanhvien_item_spinner.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/top_item.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/draw_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/avt.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/avt_round.xml" value="0.16458333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

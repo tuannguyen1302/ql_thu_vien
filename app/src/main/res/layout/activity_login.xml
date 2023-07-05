@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:src="@drawable/cateicon" />
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="214dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Dang Nhap"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        >
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Moi Nhap Ten"
+            android:id="@+id/ed_name"
+            android:background="@drawable/bg_main"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_centerInParent="false"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false"
+            >
+            <EditText
+                android:hint="Moi Nhap Mat Khau"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:id="@+id/ed_pass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_main" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.cardview.widget.CardView>
+    <CheckBox
+        android:id="@+id/chk_remember"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="40dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:text="Nhớ mật mẩu"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp">
+            <Button
+                android:background="@drawable/bg_main"
+                android:id="@+id/btn_dangnhap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dang Nhap"
+                />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp">
+            <Button
+                android:background="@drawable/bg_main"
+                android:id="@+id/btn_huy"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Huy"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

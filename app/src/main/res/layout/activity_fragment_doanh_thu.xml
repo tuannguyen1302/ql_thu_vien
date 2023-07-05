@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_DoanhThu"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:background="#3E4467" />
+        <TextView
+            android:text="  LỊCH SỬ THỐNG KÊ  "
+            android:textColor="#3E4467"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:background="#3E4467" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_tu"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_vien_hong"
+            android:text="Ngày bắt đầu"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="đến"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_show"
+            app:layout_constraintEnd_toStartOf="@+id/tv_den"
+            app:layout_constraintStart_toEndOf="@+id/tv_tu"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_den"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:padding="8dp"
+            android:text="Ngày Kết Thúc"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bg_vien_hong"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_show"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_vien_hong"
+            android:text="Tìm Kiếm"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:background="#3E4467" />
+        <TextView
+            android:text="  BẢNG DỮ LIỆU  "
+            android:textColor="#3E4467"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:background="#3E4467" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bg_main"
+            android:padding="12dp"
+            android:textSize="18dp"
+            android:text="Tổng Tiền"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+        <View
+            android:layout_width="1.5dp"
+            android:background="@color/white"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tv_tong"
+            android:padding="12dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Số tiền"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <View
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bg_vien_hong"
+            android:padding="12dp"
+            android:textSize="18dp"
+            android:text="Tổng Tiền Theo Khoảng"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+        <View
+            android:layout_width="1.5dp"
+            android:background="@color/white"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tv_tongtientheokhoang"
+            android:padding="12dp"
+            android:layout_weight="1"
+
+            android:textColor="@color/black"
+            android:background="@drawable/bg_vien_hong"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal"
+            android:text="Số tiền"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

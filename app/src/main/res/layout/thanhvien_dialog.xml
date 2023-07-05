@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    >
+    <TextView
+        android:id="@+id/tv_ThanhVien_title_dialog"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@drawable/bg_main"
+        android:padding="10dp"
+        android:gravity="center"
+ />
+
+    <EditText
+        android:id="@+id/ed_TenTV"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="15dp"
+        android:hint="Tên Thành Viên"
+        android:background="@drawable/bg_vien_hong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/ed_NamSinh"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="15dp"
+        android:hint="Năm Sinh Thành Viên"
+        android:inputType="number"
+        android:background="@drawable/bg_vien_hong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_SaveTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="Lưu"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_CancelTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FD0202"
+            android:text="Hủy"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
